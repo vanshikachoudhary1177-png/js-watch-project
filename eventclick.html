@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Events Demo</title>
+  <style>
+    #box {
+      width: 300px;
+      height: 200px;
+      background-color: lightblue;
+      border: 2px solid navy;
+      margin: 50px;
+      text-align: center;
+      line-height: 200px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="box">Hover or Click Me</div>
+
+<script>
+  const box = document.getElementById('box');
+
+//   box.addEventListener('click', () => {
+//     console.log('click: Element clicked');
+//   });
+
+//   box.addEventListener('dblclick', () => {
+//     console.log('dblclick: Element double-clicked');
+//   });
+
+  box.addEventListener('mousedown', () => {
+    console.log('mousedown: Mouse button pressed');
+  });
+
+//   box.addEventListener('mouseup', () => {
+//     console.log('mouseup: Mouse button released');
+//   });
+
+//   box.addEventListener('mousemove', () => {
+//     console.log('mousemove: Mouse moved over element');
+//   });
+
+//   box.addEventListener('mouseenter', () => {
+//     console.log('mouseenter: Mouse entered element');
+//   });
+
+//   box.addEventListener('mouseleave', () => {
+//     console.log('mouseleave: Mouse left element');
+//   });
+
+//   box.addEventListener('mouseover', () => {
+//     console.log('mouseover: Mouse over element (bubbles)');
+//   });
+
+//   box.addEventListener('mouseout', () => {
+//     console.log('mouseout: Mouse out of element (bubbles)');
+//   });
+</script>
+
+</body>
+</html>
